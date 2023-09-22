@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Inclusive+Sans&family=Mooli&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inclusive Sans", sans-serif;
+}
+body {
+  background-color: #0b0b0b;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  min-height: 100vh;
+}
+.box {
+  background-color: #ffffff;
+  width: 300px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.box h2 {
+  color: #000000;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.box h2 span {
+  color: red;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 15px;
+}
+input:focus {
+  outline: none;
+  border-color: #000000;
+}
+input::placeholder {
+  color: #cccccc;
+}
+.box #image {
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+}
+.box #image img {
+  margin: 20px 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Inclusive Sans", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #000000e2;
+}
